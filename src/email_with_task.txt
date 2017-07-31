@@ -1,0 +1,39 @@
+Здравствуйте, Владимир.
+
+Отправляем Вам задание  на трудоустройство PHP разработчиком. На выполнение одна неделя. Готовый результат отправляйте на mykolayiv@geeksforless.com .
+
+ 
+
+Предлагаем Вам ознакомиться со списком рекомендаций для потенциальных PHP программистов.
+
+
+Что нужно изучить:
+
+1. Переменные, массивы, константы
+2. Условия
+3. Циклы
+4. Создание/использование функций
+5. Создание/использования объектов
+6. Функции по работе с MySQL
+7. Функции по работе с XML
+8. Функции по работе с сессиями
+9. Функции по работе с кукисами
+10.Глобальные серверные переменные
+
+Дополнительно:
+SQL язык, базовые знания Javascript
+
+Ресурсы:
+PHP: www.php.net, www.php.ru, www.denwer.ru (готовый windows пакет для разработчика PHP+MySQL)
+SQL: www.mysql.com/?bydis_dis_index=1 , www.mysql.ru, ru.wikipedia.org/wiki/MySQL
+Javascript: docs.sun.com/source/816-6408-10/ , www.intuit.ru/department/internet/jsbasics/
+
+-- 
+
+Nadezhda Makhovik • HR Coordinator • GeeksForLess Inc.
+
+Phone: 1 954 990 00 22 • ext. 8899 • Cell: +3-8093-483-28-65
+
+E-mail: nadezhda@geeksforless.com 
+
+www.geeksforless.com

@@ -1,0 +1,172 @@
+@bg-main: #20282f;
+@color-1: #305060;
+@color-2: #4080a0;
+@color-3: #90b0c0;
+@color-main: #f0f8ff;
+@border-color-1: #eee;
+@border-color-2: #888;
+@message-color: #008090;
+
+body, select, textarea {font-family: 'Lato', sans-serif;}
+input, select, textarea {color: @bg-main;}
+* {transition: all 0.3s;}
+.clear-both:after {display: block; height: 0; clear: both; content: " ";} 
+
+body {
+    background: @color-1;
+    color: @color-main;
+}
+#page_content {
+    background: @bg-main;
+    padding: 15px 0;
+}
+#header {
+    margin-bottom: 10px;
+    h1 {margin-top: 0;}
+    #welcome {
+        padding: 10px 0;
+        text-align: right; 
+        a {color: @color-3;}
+    }
+}
+#footer {
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    p.copy {text-align: center; margin: 0;}
+}
+#rooms {
+    text-align: center;
+    a {display: inline-block; margin: 10px 5px; color: @color-3;}
+    a:hover {color: lighten(@color-main, 25%); text-decoration: none;}
+}
+body.page {
+    .system_message  {
+        color: red;
+        font-size: 110%;
+    }
+}
+
+#login_page {
+    text-align: center;
+    #header {padding: 10px 0 12px 0; margin-bottom: 40px;}
+    h2 {margin-bottom: 30px;}
+    form {
+        box-sizing: border-box;
+        width: 250px;
+        padding: 5px 15px 15px 15px;
+        margin: 0 auto;
+        border: 1px solid @border-color-1;
+        border-radius: 4px;
+        text-align: left;
+        .form-group {margin-top: 12px;}
+        label {display: block; margin-bottom: 8px;}
+        input {display: block; width: 100%;}
+        .submit {margin-top: 20px;}
+        input[type="submit"] {width: 100px; margin: 0 auto;}
+    }
+    .message {color: @message-color;}
+    #footer {margin-top: 80px;}
+}
+
+h1 {
+    vertical-align: top;
+    a, a:hover {
+        display: inline-block; 
+        padding: 0.2em 0.4em 0.3em 0.4em; 
+        margin-left: 10px;
+        border: 1px solid @color-main; 
+        border-radius: 0.25em; 
+        box-shadow: 0 0 0.5em rgba(255,255,255,0.7) inset; 
+        font-size: 75%; 
+        font-weight: normal; 
+        line-height: 1; 
+        vertical-align: top;
+        color: @color-main;
+        text-decoration: none;
+    }
+}
+#month {
+    margin-top: 30px;
+    font-size: 200%;
+    line-height: 1em;
+    * {vertical-align: top; display: inline-block;}
+    a + span {margin-left: 10px;}
+    span + a {margin-left: 10px;}
+    a {
+        font-size: 200%; line-height: 0.35em;
+        &:hover {text-decoration: none;}
+    }
+}
+
+.desk {
+    margin: 10px 0 30px 0;
+}
+table#board {
+    float: left;
+    th, td {border: 1px solid @border-color-2;}
+    th {
+        text-align: center;
+        padding: 2px 5px;
+        background: rgba(0,0,0,0.3);
+    }
+    td {
+        min-width: 100px;
+        height: 50px;
+        padding: 0 5px 2px 5px;
+        vertical-align: top;
+        b {font-size: 75%;}
+        a:hover {color: @color-main; text-decoration: none;}
+    }
+}
+#board_side {
+    margin-top: 50px;
+    float: right;
+    a {display: block; width: 120px; margin-top: 30px;}
+}
+
+.form-a {
+    .form-group {margin-top: 30px;}
+    label {display: block;}
+    .check {
+        input {vertical-align: top; margin-right: 5px;}
+    }
+}
+
+.modal {
+    color: @color-1;
+    .modal-header {
+        background: rgba(0,0,0,0.2);
+    }
+    .form-b {
+        label {min-width: 60px;}
+        input[type="text"] {padding-left: 5px; padding-right: 5px;}
+    }
+    form#bb_details {
+        .g_all {display: none;}
+        .submit {
+            margin-top: 30px;
+            input[type="submit"] {margin-right: 20px;}
+        }
+    }
+}
+
+table.emp {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    td {padding: 5px 15px 5px 15px;}
+    tr td:first-child {padding-left: 0;}
+}
+.emp_actions {
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.f-employee {
+    margin: 30px 0;
+    input.form-control {max-width: 300px;}
+}
+
+@media (min-width: 768px) {
+    .modal-room {width: 400px; margin: 100px auto;}    
+}

@@ -1,0 +1,243 @@
+body,
+select,
+textarea {
+  font-family: 'Lato', sans-serif;
+}
+input,
+select,
+textarea {
+  color: #20282f;
+}
+* {
+  transition: all 0.3s;
+}
+.clear-both:after {
+  display: block;
+  height: 0;
+  clear: both;
+  content: " ";
+}
+body {
+  background: #305060;
+  color: #f0f8ff;
+}
+#page_content {
+  background: #20282f;
+  padding: 15px 0;
+}
+#header {
+  margin-bottom: 10px;
+}
+#header h1 {
+  margin-top: 0;
+}
+#header #welcome {
+  padding: 10px 0;
+  text-align: right;
+}
+#header #welcome a {
+  color: #90b0c0;
+}
+#footer {
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#footer p.copy {
+  text-align: center;
+  margin: 0;
+}
+#rooms {
+  text-align: center;
+}
+#rooms a {
+  display: inline-block;
+  margin: 10px 5px;
+  color: #90b0c0;
+}
+#rooms a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+body.page .system_message {
+  color: red;
+  font-size: 110%;
+}
+#login_page {
+  text-align: center;
+}
+#login_page #header {
+  padding: 10px 0 12px 0;
+  margin-bottom: 40px;
+}
+#login_page h2 {
+  margin-bottom: 30px;
+}
+#login_page form {
+  box-sizing: border-box;
+  width: 250px;
+  padding: 5px 15px 15px 15px;
+  margin: 0 auto;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  text-align: left;
+}
+#login_page form .form-group {
+  margin-top: 12px;
+}
+#login_page form label {
+  display: block;
+  margin-bottom: 8px;
+}
+#login_page form input {
+  display: block;
+  width: 100%;
+}
+#login_page form .submit {
+  margin-top: 20px;
+}
+#login_page form input[type="submit"] {
+  width: 100px;
+  margin: 0 auto;
+}
+#login_page .message {
+  color: #008090;
+}
+#login_page #footer {
+  margin-top: 80px;
+}
+h1 {
+  vertical-align: top;
+}
+h1 a,
+h1 a:hover {
+  display: inline-block;
+  padding: 0.2em 0.4em 0.3em 0.4em;
+  margin-left: 10px;
+  border: 1px solid #f0f8ff;
+  border-radius: 0.25em;
+  box-shadow: 0 0 0.5em rgba(255, 255, 255, 0.7) inset;
+  font-size: 75%;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: top;
+  color: #f0f8ff;
+  text-decoration: none;
+}
+#month {
+  margin-top: 30px;
+  font-size: 200%;
+  line-height: 1em;
+}
+#month * {
+  vertical-align: top;
+  display: inline-block;
+}
+#month a + span {
+  margin-left: 10px;
+}
+#month span + a {
+  margin-left: 10px;
+}
+#month a {
+  font-size: 200%;
+  line-height: 0.35em;
+}
+#month a:hover {
+  text-decoration: none;
+}
+.desk {
+  margin: 10px 0 30px 0;
+}
+table#board {
+  float: left;
+}
+table#board th,
+table#board td {
+  border: 1px solid #888;
+}
+table#board th {
+  text-align: center;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.3);
+}
+table#board td {
+  min-width: 100px;
+  height: 50px;
+  padding: 0 5px 2px 5px;
+  vertical-align: top;
+}
+table#board td b {
+  font-size: 75%;
+}
+table#board td a:hover {
+  color: #f0f8ff;
+  text-decoration: none;
+}
+#board_side {
+  margin-top: 50px;
+  float: right;
+}
+#board_side a {
+  display: block;
+  width: 120px;
+  margin-top: 30px;
+}
+.form-a .form-group {
+  margin-top: 30px;
+}
+.form-a label {
+  display: block;
+}
+.form-a .check input {
+  vertical-align: top;
+  margin-right: 5px;
+}
+.modal {
+  color: #305060;
+}
+.modal .modal-header {
+  background: rgba(0, 0, 0, 0.2);
+}
+.modal .form-b label {
+  min-width: 60px;
+}
+.modal .form-b input[type="text"] {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.modal form#bb_details .g_all {
+  display: none;
+}
+.modal form#bb_details .submit {
+  margin-top: 30px;
+}
+.modal form#bb_details .submit input[type="submit"] {
+  margin-right: 20px;
+}
+table.emp {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+table.emp td {
+  padding: 5px 15px 5px 15px;
+}
+table.emp tr td:first-child {
+  padding-left: 0;
+}
+.emp_actions {
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+.f-employee {
+  margin: 30px 0;
+}
+.f-employee input.form-control {
+  max-width: 300px;
+}
+@media (min-width: 768px) {
+  .modal-room {
+    width: 400px;
+    margin: 100px auto;
+  }
+}

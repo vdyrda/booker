@@ -1,0 +1,13 @@
+{
+    "name": "vendor/booker",
+    "description": "Description of project Booker.",
+    "authors": [
+        {
+            "name": "Vlad",
+            "email": "vdyrda@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "5.7.13"
+    }
+}
